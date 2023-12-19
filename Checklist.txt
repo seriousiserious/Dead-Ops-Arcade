@@ -1,0 +1,25 @@
+Elementi || Riferimenti principali
+
+Splash Screen ed Icona gioco || Inseriti direttamente dai Player Settings.
+Options: Sound/Music e Controls || SoundManager.cs, ButtonsManager.cs, SaveGame.cs.
+Credits Screen || Scena "Credits".
+Classifica: Ordinata, con rimpiazzo dinamico. || LeaderBoard.cs, SaveGame.cs. 
+Tutorial: Due schermate interattive ed una statica. || Scena "Tutorial". ButtonsManager.cs, Moving2D.cs, Aim2D.cs, Bullet2D.cs, Shoot2D.cs. (Il tutorial viene caricato automaticamente solo la prima volta che viene lanciato il gioco, ovviamente bisognerà resettare i registri per fare in modo che questo avvenga nuovamente. Altrimenti è comunque accessibile dal menu.)
+GamePlay: Score, 4 Bonus/Upgrade giocatore; || ScreenManager.cs, Rising.cs, Rotating.cs, RoundManager.cs.
+Gioco a tempo: (Incerto, tecnicamente ogni round ha un suo timer variabile.)
+Method overload: || EnemyManager.cs, ZombieMovement.cs;
+Presenza di nemici:Livelli di difficoltà (C'è una modalità normale ed una in cui si muore al primo colpo ricevuto.), difficoltà crescente (velocità, danno e vita dei nemici salgono gradualmente ad ogni round, anche se la velocità raggiunge max 2.5F per non creare problemi), AI base. || EnemyManager.cs, Zombie.cs, ZombieHit.cs, ZombieMovement.cs.
+PlayerPrefs: Usati per suoni, controlli, livello di difficoltà e classifica. || SaveGame.cs.
+Singleton: || Tutti gli script Manager. 
+Coroutines: || ButtonsManager.cs, Zombie.cs, ZombieHit.cs, EnemyManager.cs, ScreenManager.cs, SoundManager.cs, PlayerShoot.cs, Shoot2D.cs, ShootingWeapon.cs.
+Enums: Tipo arma. || MainWeapon.cs.
+Classi statiche: || ExtensionMethods.cs, LeaderBoard.cs, SaveGame.cs.
+Presenza di ereditarietà: || ShootingWeapon.cs.
+ExtensionMethods: || ExtensionMethods.cs.
+Delegates: || ScreenManager.cs.
+Eventi: Gestione dei bottoni, pausa gioco, acquisto bonus. || PlayerMovement.cs, ScreenManager.cs, ButtonsManager.cs.
+Animazioni: animazioni giocatore, zombie, schermata di crediti. || PlayerMovement.cs, PlayerShoot.cs, Zombie.cs, ZombieHit.cs, ZombieMovement.cs.
+Sound: Soundtrack, suoni di sparo, suoni acquisto bonus, urla zombie, urla giocatore, suoni bottoni. || ButtonsManager.cs, SoundManager.cs.
+Raycast: Il giocatore si muove seguendo il cursore del mouse tramite uso di raycast. || PlayerAim.cs.
+User interface: Barra salute, score, moltiplicatore, piccola icona giocatore, icona scudo, icona arma corrente, testo centrale di fine round. || ScreenManager.cs.
+Particelle: Particelle sangue nemico, particelle per arma speciale. || ExtensionMethods.cs.
