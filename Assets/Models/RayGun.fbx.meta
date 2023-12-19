@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 3880d52db6a4d6c48998d575157eaa50
+timeCreated: 1542151747
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arrow
+    100002: Arrow_end
+    100004: Barrel
+    100006: Barrel_end
+    100008: Battery_1
+    100010: Battery_1_end
+    100012: Battery_2
+    100014: Battery_2_end
+    100016: Gear
+    100018: Gear_end
+    100020: Knob
+    100022: Knob_end
+    100024: //RootNode
+    100026: raygun_mk1.qc_skeleton
+    100028: raygun_mk1_Raygun
+    100030: Switch
+    100032: Switch_end
+    100034: Weapon
+    400000: Arrow
+    400002: Arrow_end
+    400004: Barrel
+    400006: Barrel_end
+    400008: Battery_1
+    400010: Battery_1_end
+    400012: Battery_2
+    400014: Battery_2_end
+    400016: Gear
+    400018: Gear_end
+    400020: Knob
+    400022: Knob_end
+    400024: //RootNode
+    400026: raygun_mk1.qc_skeleton
+    400028: raygun_mk1_Raygun
+    400030: Switch
+    400032: Switch_end
+    400034: Weapon
+    4300000: raygun_mk1_Raygun
+    7400000: raygun_mk1.qc_skeleton|idle
+    9500000: //RootNode
+    13700000: raygun_mk1_Raygun
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
